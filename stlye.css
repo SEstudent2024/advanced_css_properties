@@ -1,0 +1,64 @@
+.background-fade {
+    background-color: rgba(0, 0, 255, 0.5); /* Blue with 50% opacity */
+    padding: 20px;
+    margin: 10px;
+}
+
+.enhanced-text {
+    color: #ffffff; /* White text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Black shadow with 50% opacity */
+}
+
+.interactive-button {
+    background-color: rgba(255, 0, 0, 0.7); /* Red with 70% opacity */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.interactive-button:hover {
+    background-color: rgba(0, 255, 0, 0.7); /* Green with 70% opacity */
+}
+
+.smooth-link {
+    color: #3498db; /* Initial color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.smooth-link:hover {
+    color: #e7220c; /* Color on hover */
+}
+
+.animated-button {
+    background-color: #0ec65b; /* Initial background color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Smooth transition for transform */
+}
+
+.animated-button:active {
+    transform: scale(1.1); /* Slightly increase size on click */
+}
+
+.rotating-icon {
+    width: 50px; /* Size of the icon */
+    height: 50px;
+    animation: rotate 2s linear infinite; /* Continuous rotation */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
